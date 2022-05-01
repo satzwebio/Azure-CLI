@@ -1,0 +1,3 @@
+#To create a storage account
+
+az storage account create --name satappstorage --resource-group cli-grp --kind StorageV2 --sku Standard_LRS

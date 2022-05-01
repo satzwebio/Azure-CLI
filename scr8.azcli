@@ -1,0 +1,5 @@
+#To create a web app
+
+az appservice plan create --name satzplan1000 --resource-group cli-grp --sku F1
+
+az webapp create --name webappsatz --plan satzplan1000 --resource-group cli-grp

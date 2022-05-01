@@ -1,0 +1,3 @@
+#Azure Vm scale set
+
+az vmss create --name app-set --resource-group cli-grp --admin-username demousr --image Win2012Datacenter --vm-sku "Standard-DS2_v2"
